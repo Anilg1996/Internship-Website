@@ -36,4 +36,11 @@ collegeSchema.pre("save", function (next) {
     .join(" ");
   next();
 });
+
+// collegeSchema.virtual("intern", {
+//   localField: '_id',
+//   foreignField: 'collegeId',
+//   ref: 'intern'
+// });
+
 module.exports = mongoose.model("college", collegeSchema);

@@ -154,4 +154,4 @@ index file ka
 //   catch(err){
 //     console.log(err.message)
 //   }
-// })()    //////IMMEDIATELY INVOKED FUNCTION EXPRESSION (IIFE)
+// })
